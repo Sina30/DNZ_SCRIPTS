@@ -1,0 +1,490 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid aliceblue;
+
+    width: 808px;
+    height: 349px;
+    
+    /* Gray 6 */
+    
+    background: #F2F2F2;
+    border-radius: 25px;
+}
+
+.topshit {
+    position: absolute;
+width: 862px;
+height: 147px;
+left: -2px;
+top: -5.9px;
+
+background: #24245C;
+border: 1px solid #24245C;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+border-radius: 25px 25px 0 0;
+}
+
+p.dielinie {
+    position: absolute;
+width: 258.01px;
+height: 0px;
+left: 279.09px;
+top: 80.93px;
+
+border: 1px solid #565656;
+transform: rotate(-0.45deg);
+}
+
+h2.topheader {
+    position: absolute;
+width: 263px;
+height: 36px;
+left: 285.09px;
+top: 35.9px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}
+
+h5.topheader {
+    position: absolute;
+width: 238px;
+height: 20px;
+left: 293.08px;
+top: 87.9px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+
+
+.boxheader {
+    position: absolute;
+    width: 178px;
+    height: 24px;
+    left: 61.08px;
+    top: 166.88px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+    
+}
+
+
+.weedbox {
+    position: absolute;
+    width: 184px;
+    height: 151px;
+    left: 49.08px;
+    top: 202.88px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+.weedbestand {
+    position: absolute;
+width: 161px;
+height: 56px;
+left: 61.08px;
+top: 214.88px;
+
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+border-radius: 15px;
+transform: rotate(0deg);
+
+}
+
+.baggiebestand {
+
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 61.07px;
+    top: 280.88px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+
+.verkaufsbox {
+    position: absolute;
+    width: 499px;
+    height: 192px;
+    left: 258.08px;
+    top: 173.9px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+.baggies {
+    position: absolute;
+    width: 132px;
+    height: 131px;
+    left: 273.08px;
+    top: 185.9px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+.weed {
+    position: absolute;
+    width: 132px;
+    height: 131px;
+    left: 438.08px;
+    top: 185.91px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+.endprodukt {
+    position: absolute;
+    width: 132px;
+    height: 131px;
+    left: 603.08px;
+    top: 185.92px;
+    
+    border: 1px solid #B5B5B5;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    transform: rotate(0deg);
+}
+
+p.pluseins {
+    position: absolute;
+    width: 11px;
+    height: 15px;
+    left: 416.07px;
+    top: 243.91px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+    transform: rotate(0deg);
+
+}
+
+p.istgleich {
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 579.07px;
+    top: 246.92px;
+    
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+}
+
+p.istgleich2 {
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 579.07px;
+    top: 251.92px;
+    
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+}
+
+.buttonand {
+    position: absolute;
+width: 165px;
+height: 27px;
+left: 421.07px;
+top: 326.91px;
+
+background: #24245C;
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+transform: rotate(0deg);
+
+outline: none;
+}
+
+.buttonand:hover {
+    background-color: #4e4e82; /* Green */
+}
+
+p.buttontext {
+    position: absolute;
+width: 79px;
+height: 23px;
+left: 463.07px;
+top: 329.91px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+
+}
+
+.spaceweed {
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 120.07px;
+    top: 241.89px;
+    
+    border: 0.5px solid #000000;
+    transform: rotate(90deg);
+}
+
+.spacebaggies{
+    position: absolute;
+    width: 28px;
+    height: 0px;
+    left: 120.07px;
+    top: 307.89px;
+    
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+
+.needweed {
+/* 1 */
+
+
+position: absolute;
+width: 4px;
+height: 20px;
+left: 282.08px;
+top: 190.9px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight:375;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+transform: rotate(0deg);
+}
+
+.needbaggies {
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    left: 446.08px;
+    top: 190.91px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    transform: rotate(0deg);
+    
+}
+
+.needende {
+/* 3 */
+
+
+position: absolute;
+width: 8px;
+height: 20px;
+left: 611.08px;
+top: 190.92px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 375;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+transform: rotate(0deg);
+}
+
+
+
+img.bestandweed {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 71px;
+    top: 220px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 14px;
+    transform: rotate(0deg);
+}
+
+img.bestandbaggies {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 75px;
+    top: 290px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.baggiesbild {
+
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 291px;
+    top: 205px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.weedbild {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: 449.08px;
+    top: 196.91px;
+    
+    border-radius: 14px;
+    transform: rotate(0deg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.weedpack {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 622px;
+    top: 204px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+p.meinweed {
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 145.07px;
+    top: 232.89px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+}
+
+p.meinebaggies {
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 145.07px;
+    top: 298.89px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+}

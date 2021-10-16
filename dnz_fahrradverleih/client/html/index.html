@@ -1,0 +1,100 @@
+<html>
+	<head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+            <div class="topshit"></div>
+            <div class="box">
+                <img src="bilder/Bmx.png" alt="" class="bike1">
+
+                <img src="bilder/Fixter.png" alt="" class="bike2"> 
+       
+
+                <div class="dielinie"></div>
+                <img src="bilder/Cruiser.png" alt="" class="bike3">
+       
+
+                <img src="bilder/Scorcher.png" alt="" class="bike4">
+
+           <button type="button" class="btn" style="font-family: Poppins;margin-top: 255px;margin-left: 105px;color: white;background-color: #596275;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" data-toggle="modal" data-target="#exampleModal">
+            Fahrrad mieten
+          </button>
+
+            </div>
+            <p class="toptext">FAHRRAD VERLEIH</p>
+            <div class="closebutton" id="close"></div>
+		</div>
+			
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bitte wähle ein Fahrrad sowie deine Mietdauer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+    <div class="form-group">
+      <label style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Poppins;" for="sel1">Fahrrad</label>
+      <select class="form-control" style="font-family: Poppins;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" id="sel1">
+        <option>BMX</option>
+        <option>Cruiser</option>
+        <option>Fixter</option>
+        <option>Scorcher</option>
+      </select>
+      <br>
+      <label style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Poppins;" for="sel2">Mietdauer(Minuten)</label>
+      <select class="form-control" style="font-family: Poppins;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" id="sel2">
+        <option>5</option>
+        <option>15</option>
+        <option>30</option>
+        <option>60</option>
+        <option>120</option>
+        <option>240</option>
+        <option>480</option>
+      </select>
+    </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+        <p style="color: white;font-family: Poppins;align-content: left;" id="rechnung"> Rechnung: $45</p>
+        <p style="color: white;font-family: Poppins;align-content: left;" id="mietdauer"> Mietdauer: 5min</p>
+        <button type="button" id="mietvertrag" class="btn" style="background-color: #596275;font-family: Poppins;color: white;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">Mietvertrag abschliessen</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymquous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    $('#sel2').on('change', function() {
+      $("#rechnung").text("Rechnung: $" + this.value*9);
+      $("#mietdauer").text('Mietdauer: ' + this.value + 'min');
+    });
+
+    $('#mietvertrag').on('click', function(){
+      var bike = $('#sel1').val().toLowerCase();
+      var rechnung = $('#sel2').val()*9;
+      $.post('http://dnz_fahrradverleih/main', JSON.stringify({
+        fahrrad: bike,
+        bezahlen: rechnung,
+        }));
+        $('#exampleModal').modal('hide');
+    });
+</script>
+	</body>
+</html>

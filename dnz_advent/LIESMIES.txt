@@ -1,0 +1,4 @@
+In der Tabelle "users" muss eine neue Spalte angelegt werden namens "advent"
+
+
+Stell deine Rewards selber ein: server.lua

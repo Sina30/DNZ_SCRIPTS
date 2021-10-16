@@ -1,0 +1,112 @@
+<html>
+	<head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+            <div class="topshit"></div>
+            <div class="box">
+                <img src="bilder/BALLER6.png" alt="" class="bike1">
+
+                <img src="bilder/BLISTA.png" alt="" class="bike2"> 
+       
+
+                <div class="dielinie"></div>
+                <img src="bilder/GT63SAMG.png" alt="" class="bike3">
+       
+
+                <img src="bilder/RS7.png" alt="" class="bike4">
+
+           <button type="button" class="btn" style="font-family: Poppins;margin-top: 255px;margin-left: 85px;color: white;background-color: #596275;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-id-card-o" aria-hidden="true"></i>  Fahrzeug mieten
+          </button>
+
+            </div>
+            <p class="toptext"> MIETWAGEN GmbH </p>
+            <div class="closebutton" id="close"></div>
+		</div>
+			
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bitte wähle ein Fahrzeug sowie deine Mietdauer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+    <div class="form-group">
+      <label style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Poppins;" for="sel1"> <i class="fa fa-car" aria-hidden="true"></i> Fahrzeuge</label>
+      <select class="form-control" style="font-family: Poppins;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" id="sel1">
+        <option>AUDI RS7</option>
+        <option>BALLER6</option>
+        <option>Mercedes AMG GT63s</option>
+        <option>BLISTA</option>
+        <option>BRIOSO</option>
+        <option>SULTAN</option>
+        <option>SEVEN70</option>
+      </select>
+      <br>
+      <label style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Poppins;" for="sel2"><i class="fa fa-clock-o" aria-hidden="true"></i> Mietdauer in Minuten</label>
+      <select class="form-control" style="font-family: Poppins;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" id="sel2">
+		<option>5</option>
+        <option>15</option>
+        <option>30</option>
+        <option>60</option>
+        <option>120</option>
+        <option>240</option>
+        <option>480</option>
+      </select>
+    </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+        <p style="color: white;font-family: Poppins;align-content: left;" id="rechnung"> Rechnung: $45</p>
+        <p style="color: white;font-family: Poppins;align-content: left;" id="mietdauer"> Mietdauer: 5min</p>
+        <button type="button" id="mietvertrag" class="btn" style="background-color: #596275;font-family: Poppins;color: white;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);"><i class="fa fa-handshake-o" aria-hidden="true"></i> Mietvertrag abschliessen</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymquous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    $('#sel2').on('change', function() {
+	  
+	$("#rechnung").text("Rechnung: $" + this.value*1250);
+	$("#mietdauer").text('Mietdauer: ' + this.value + 'min');
+
+    });
+
+    $('#mietvertrag').on('click', function(){
+      var fahrzeugname = $('#sel1').val();
+      var rechnung = $('#sel2').val()*1250;
+	
+      if(fahrzeugname == 'AUDI RS7') {
+        fahrzeugname = '2016rs7';
+      } else if (fahrzeugname == 'Mercedes AMG GT63s'){
+        fahrzeugname = 'gt63samg';
+  }
+
+      $.post('http://dnz_autoverleih/main', JSON.stringify({
+        fahrrad: fahrzeugname,
+        bezahlen: rechnung,
+        }));
+        $('#exampleModal').modal('hide');
+    });
+</script>
+	</body>
+</html>

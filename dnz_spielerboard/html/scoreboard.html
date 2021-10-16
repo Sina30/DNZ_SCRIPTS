@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="nui://dnz_spielerboard/html/listener.js" type="text/javascript"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div style="display: none;" id="container">
+
+			<img src="logo.png" class="logo">
+			<div class="servername">DEIN ROLEPLAY SERVER</div>
+			<span id="praca" class="beruf">Lade..</span>
+			<p class="deineid">Deine ID</p>
+			<b><span class="dieid" id="server_uptime">Lade..</span></b>
+			<p class="ping">Ping: <b><span id="play_time">Lade..</span></p>
+				<p class="online">Online: <b><span id="player_count">..</span></b>/<b><span id="max_players">..</span></b></p>
+				<div class="dielinie"></div>
+				<p class="imdienst">Zurzeit im Dienst:</p>
+
+				<img class="cops" src="cops.png">
+				<img class="medics" src="medic.png">
+				<img class="mechaniker" src="mechanic.png">
+				<div class="copsbox"></div>
+				<div class="medicsbox"></div>
+				<div class="mechanikerbox"></div>
+
+				<b><span class="cops" id="police">..</span></b>
+				<b><span class="medics" id="ems">..</span></b>
+				<b><span class="mechaniker" id="mechanic">..</span></b>
+				
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

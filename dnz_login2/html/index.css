@@ -1,0 +1,545 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: relative;
+    width: 383px;
+    height: 535px;
+    
+    background: #283033;
+    border-radius: 17px;
+
+}
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+    border: none;
+    outline:none;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.topshit {
+    /* Top linie */
+
+
+position: absolute;
+width: 433px;
+height: 13px;
+left: 0px;
+top: -1px;
+
+background: #C4C4C4;
+border-radius: 17px 17px 0px 0px;
+}
+.einlogg {
+    
+    /* Einloggen */
+    
+    
+    position: absolute;
+    width: 107px;
+    height: 32px;
+    left: 35px;
+
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    pointer-events: none;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .regist {
+        /* Registrieren */
+    
+    
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 24px;
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    pointer-events: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+img.logo {
+
+    /* Logo */
+
+
+position: absolute;
+width: 117px;
+height: 117px;
+left: 159px;
+top: 39px;
+
+background: url(11.png);
+opacity: 0.39;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+p.dnzscripts {
+    /* Willkommen auf DNZ Scripts */
+
+
+position: absolute;
+width: 434px;
+height: 32px;
+left: -1px;
+top: 161px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+p.slogan {
+    /* www.dnz-roleplay.de */
+
+
+position: absolute;
+width: 127px;
+height: 19px;
+left: 115px;
+top: 190px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.linie {
+    /* Line 17 */
+
+
+position: absolute;
+width: 161px;
+height: 0px;
+left: 136px;
+top: 220px;
+
+border: 1px solid #ACACAC;
+}
+
+.einloggen {
+    /* Frame 31 */
+
+
+position: absolute;
+width: 176px;
+height: 37px;
+left: 40px;
+top: 243px;
+
+background: #777777;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px 0px 0px 0px;
+}
+
+.einloggen:hover {
+    background: #777777;
+}
+
+
+.registrieren {
+    /* Frame 32 */
+
+
+position: absolute;
+width: 176px;
+height: 37px;
+left: 216px;
+top: 243px;
+
+background: #969696;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 25px 0px 0px;
+}
+
+.registrieren:hover {
+    background: #777777;
+}
+
+.loginbox {
+    /* Rectangle 112 */
+
+
+position: absolute;
+width: 369px;
+height: 271px;
+left: 32px;
+top: 279px;
+
+border: 1px solid #969696;
+box-sizing: border-box;
+}
+
+.registerbox{
+    /* Rectangle 112 */
+
+
+position: absolute;
+width: 369px;
+height: 271px;
+left: 32px;
+top: 280px;
+
+border: 1px solid #969696;
+box-sizing: border-box;
+}
+
+.username1 {
+/* Username: */
+
+
+position: absolute;
+width: 115px;
+height: 32px;
+left: 67px;
+top: 306px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.username {
+/* Frame 30 */
+
+
+position: absolute;
+width: 301px;
+height: 29px;
+left: 67px;
+top: 341px;
+
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.passwort1 {
+/* Passwort: */
+
+
+position: absolute;
+width: 102px;
+height: 32px;
+left: 67px;
+top: 380px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.passwort {
+/* Frame 29 */
+
+
+position: absolute;
+width: 301px;
+height: 29px;
+left: 67px;
+top: 418px;
+
+opacity: 0.5;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+p.wronglogin {
+    /* Benutzername und oder Passwort falsch. */
+    
+    
+    position: absolute;
+    width: 234px;
+    height: 17px;
+    left: 105px;
+    top: 459px;
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    
+    color: #FF0000;
+    }
+
+    
+    p.vergeben {
+        /* Benutzername und oder Passwort falsch. */
+        
+        
+        position: absolute;
+        width: 234px;
+        height: 17px;
+        left: 125px;
+        top: 459px;
+        
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #FF0000;
+        }
+
+        p.hastschon {
+            /* Benutzername und oder Passwort falsch. */
+            
+            
+            position: absolute;
+            width: 334px;
+            height: 17px;
+            left: 62px;
+            top: 456px;
+            
+            font-family: Red Hat Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: limegreen;
+            }
+
+            p.keinaccount {
+                /* Benutzername und oder Passwort falsch. */
+                
+                
+                position: absolute;
+                width: 334px;
+                height: 17px;
+                left: 62px;
+                top: 456px;
+                
+                font-family: Red Hat Display;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                
+                color: red;
+                }
+                p.errorcode {
+                    /* Benutzername und oder Passwort falsch. */
+                    
+                    
+                    position: absolute;
+                    width: 234px;
+                    height: 17px;
+                    left: 139px;
+                    top: 459px;
+                    
+                    font-family: Red Hat Display;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    
+                    color: #FF0000;
+                    }
+                    p.accountinvalid {
+                        /* Benutzername und oder Passwort falsch. */
+                        
+                        
+                        position: absolute;
+                        width: 234px;
+                        height: 17px;
+                        left: 139px;
+                        top: 459px;
+                        
+                        font-family: Red Hat Display;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 17px;
+                        
+                        color: #FF0000;
+                        }
+                        p.gebannt {
+                            /* Benutzername und oder Passwort falsch. */
+                            
+                            
+                            position: absolute;
+                            width: 234px;
+                            height: 17px;
+                            left: 139px;
+                            top: 459px;
+                            
+                            font-family: Red Hat Display;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 17px;
+                            
+                            color: #FF0000;
+                            }
+        
+
+.login {
+    position: absolute;
+    width: 161px;
+    height: 34px;
+    left: 139px;
+    top: 498px;
+    
+    background: #969696;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.login:hover {
+    background-color: #aeaeae; /* Green */
+  }
+
+
+
+  .register2 {
+    position: absolute;
+    width: 161px;
+    height: 34px;
+    left: 139px;
+    top: 498px;
+    
+    background: #969696;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.register2:hover {
+    background-color: #aeaeae; /* Green */
+  }
+
+  p.login1 {
+    /* Login */
+    
+    
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 49px;
+    top: -2px;
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    
+p.register1 {
+    /* Login */
+    
+    
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 28px;
+    top: -2px;
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+    input[type="text"] {
+        background: transparent;
+        border: none;
+        outline: none;
+        text-align: center; 
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+    
+    input[type="password"] {
+        background: transparent;
+        border: none;
+        outline: none;
+        text-align: center; 
+        font-size: 14px;        
+    }

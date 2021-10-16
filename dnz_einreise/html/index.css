@@ -1,0 +1,352 @@
+body {
+    background: none !important;
+}
+
+hr.new {
+/* Line 11 */
+
+
+position: absolute;
+width: 109.35px;
+height: 0px;
+left: 18.72px;
+top: 72.66px;
+
+border: 3px solid #E1E1E1;
+
+}
+
+#cross {
+    margin-top: -20px; 
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+position: relative;
+width: 449px;
+height: 544px;
+
+background: #283033;
+border-radius: 25px;
+}
+
+#box1 {
+    background-color: grey;
+    overflow:hidden;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#box2 {
+    margin-top: 140px;
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 175px;
+    width: 150;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#box3 {
+    margin-top: -175px;
+    margin-left: 400px;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 175px;
+    width: 150;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#box4 {
+    margin-top: -32px;
+    margin-left: 595px;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 175px;
+    width: 150;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#box5 {
+    margin-top: -38px;
+    margin-left: 760px;
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 145px;
+    width: 120;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#plus-sign {
+    color: black;
+    font-size: 48px;
+    margin-left: 285;
+    margin-top: -215px;
+}
+
+#pfeil-rechts {
+    color: black;
+    font-size: 30px;
+    margin-left: 480;
+    margin-top: -197px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+#links { float: left;width: 200px; }
+#rechts { float: left;width: 800px; }
+#mitte { display: inline-block; padding-left: 350px;}
+
+#titel { 
+/* DEIN ROLEPLAY SERVER */
+
+
+position: absolute;
+width: 394px;
+height: 34px;
+left: 19px;
+top: 37px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+
+.willkommen {
+
+/* Willkommen Wir hoffen du hattest einen angenehmen Flug. Um mit deiner Einreise zu starten miete dir zunächst ein Fahrrad bei mir. Begib dich danach am besten direkt zur Fahrschule und such dort nach einem Fahrlehrer der dir bei deiner Prüfungsvorbereitung hilft. Suche dir danach ein Apartment in der Stadt und kontaktiere das Arbeitsamt. Ohne Geld bist du hier verloren.. */
+
+
+position: absolute;
+width: 358px;
+height: 283px;
+left: 47px;
+top: 139px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;
+}
+
+img.flugzeug {
+	position: absolute;
+width: 175.88px;
+height: 175.88px;
+left: 236.94px;
+top: 42px;
+opacity: 0.2;
+
+transform: rotate(30deg);
+}
+
+hr.new1{
+
+position: absolute;
+width: 109.35px;
+height: 0px;
+left: 170px;
+top: 401.49px;
+
+border: 1px solid #E1E1E1;
+}
+
+body {
+    background: #1d1f20;
+    text-align: center;
+}
+/* Using codepen button style :) */
+
+p.rofl {
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {font-size: 10px;}
+  .button2 {font-size: 12px;}
+  .button3 {
+	  position: absolute;
+width: 161px;
+height: 34px;
+left: 145px;
+top: 453px;
+
+background: #969696;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+  }
+  .button4 {font-size: 20px;}
+  .button5 {font-size: 24px;}
+  
+.button.loading {
+    background-color: #CCC;
+    padding-right: 40px;
+}
+.button.loading:after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    right: 6px;
+    top: 50%;
+    width: 0px;
+    height: 0px;
+    margin-top: -2px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-left-color: #FFF;
+    border-top-color: #FFF;
+    animation: spin .6s infinite linear, grow .3s forwards ease-out;
+}
+@keyframes spin { 
+    to {
+        transform: rotate(359deg);
+    }
+}
+@keyframes grow { 
+    to {
+        width: 14px;
+        height: 14px;
+        margin-top: -8px;
+        right: 13px;
+    }
+}
+
+
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+.topshit {
+	/* Rectangle 113 */
+
+
+position: absolute;
+width: 449px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+border-radius: 17px 17px 0px 0px;
+}
+
+
+.closer {
+position: absolute;
+width: 20px;
+height: 19px;
+left: 413px;
+top: 34px;
+
+background: rgba(204, 204, 204, 0.84);
+border-radius: 17px;
+}
+.closer:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.closer:active {
+	position:relative;
+	top:1px;
+}
+
+.trootll {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:23px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.trootll:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.trootll:active {
+	position:relative;
+	top:1px;
+}

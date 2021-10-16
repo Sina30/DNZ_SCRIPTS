@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+            <div class="topshit"></div>
+            <img class="lifeinvaderlogo" src="img/invaderlogo.png">
+            <p class="toptext">Schalte deine personalisierte Werbeanzeige</p>
+            <p class="deinwerbetext">Dein Werbetext</p>
+            <div class="werbebox"></div>
+
+            <div class="inputlinie"></div>
+            <p class="kosten">Kosten: $500</p>
+            <img class="links" src="img/links.png">
+            <img class="rechts" src="img/rechts.png">
+
+		<div class="toplinie"></div>
+            <form id="form">
+                <textarea id="input" style="resize: none;" maxlength='100' class="eingabe" name="Text1" cols="40" rows="5" placeholder="Gib hier deinen Werbetext ein"></textarea>
+                <br>
+                <button id="submit" class="schalten" type="submit"><p style="font-family: Poppins; color: #FFFFFF;" >Werbung schalten</p></button>
+                <button id="close"><img class="closebutton" id="close" src="img/exit.png"></button>
+            </form>
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

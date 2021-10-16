@@ -1,0 +1,358 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    width: 559px;
+    height: 378px;
+    
+    background: #283033;
+    border-radius: 25px;
+
+}
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.topshit {
+/* Rectangle 113 */
+
+
+position: absolute;
+width: 609px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px 17px 0px 0px;
+}
+
+button.closebutton{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 580px;
+    top: 4px;
+    border: none;
+    background: rgba(216, 141, 141, 0.84);
+    border-radius: 17px;
+    outline: none;
+
+}
+
+p.topheader {
+/* Waffenherstellung */
+
+
+position: absolute;
+width: 394px;
+height: 28px;
+left: 19px;
+top: 39px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.toplinie {
+/* Line 11 */
+
+
+position: absolute;
+width: 109.35px;
+height: 0px;
+left: 18.72px;
+top: 72.66px;
+
+border: 2px solid #E1E1E1;
+}
+
+p.slogan {
+    position: absolute;
+    width: 430px;
+    height: 20px;
+    left: 19px;
+    top: 83px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: rgba(255, 255, 255, 0.88);
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boxeins {
+/* Rectangle 138 */
+
+
+position: absolute;
+width: 175px;
+height: 157px;
+left: 26px;
+top: 133px;
+
+border: 1px solid #CBCBCB;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+
+}
+
+.boxzwei {
+/* Rectangle 139 */
+
+
+position: absolute;
+width: 175px;
+height: 157px;
+left: 217px;
+top: 133px;
+
+border: 1px solid #CBCBCB;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+}
+
+.boxdrei {
+
+/* Rectangle 140 */
+
+
+position: absolute;
+width: 175px;
+height: 157px;
+left: 408px;
+top: 133px;
+
+border: 1px solid #CBCBCB;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+}
+
+
+.boxvier {
+/* Rectangle 141 */
+
+
+position: absolute;
+width: 175px;
+height: 39px;
+left: 26px;
+top: 306px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.boxfunf {
+    position: absolute;
+    width: 175px;
+    height: 39px;
+    left: 217px;
+    top: 306px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.boxsechs {
+    position: absolute;
+    width: 175px;
+    height: 39px;
+    left: 408px;
+    top: 306px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+p.materialien50 {
+    /* 0/50 */
+
+
+position: absolute;
+width: 160px;
+height: 27px;
+left: 35px;
+top: 311px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+p.materialien100 {
+   /* 0/100 */
+
+
+position: absolute;
+width: 160px;
+height: 27px;
+left: 225px;
+top: 312px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+p.materialien150 {
+    /* 0/150 */
+
+
+position: absolute;
+width: 160px;
+height: 27px;
+left: 417px;
+top: 311px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+button.herstellen50 {
+    /* Frame 33 */
+
+
+position: absolute;
+width: 161px;
+height: 34px;
+left: 33px;
+top: 359px;
+font-family: Poppins;
+background: #969696;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+outline: none;
+}
+
+
+button.herstellen100{
+    position: absolute;
+    width: 161px;
+    height: 34px;
+    left: 223px;
+    top: 359px;
+    font-family: Poppins;
+    background: #969696;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    outline: none;
+}
+
+
+button.herstellen150 {
+/* Frame 34 */
+
+font-family: Poppins;
+position: absolute;
+width: 161px;
+height: 34px;
+left: 415px;
+top: 359px;
+outline: none;
+background: #969696;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+
+}
+
+
+img.eins {
+    position: absolute;
+    width: 128px;
+    height: 80px;
+    left: 50px;
+    top: 167px;
+    
+}
+
+img.zwei {
+    position: absolute;
+    width: 130px;
+    height: 96px;
+    left: 242px;
+    top: 163px;
+}
+
+img.drei {
+    position: absolute;
+    width: 149px;
+    height: 72px;
+    left: 422px;
+    top: 175px; 
+}
+
+button:hover {
+    background-color: grey;
+}
+
+

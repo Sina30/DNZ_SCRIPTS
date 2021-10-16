@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="https://code.angularjs.org/snapshot/angular.min.js"></script>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+	</head>
+    <body ng-app="nui" ng-controller="nuiController" ng-mousemove="onMouseMove($event)">
+		<div id="container">
+            <div class="topshit"></div>
+            <img style="width: 50px; height: 50px;" src="11.png">
+            
+            <p class="dnzscripts">Willkommen auf Crime V</p>
+            <p class="slogan">https://discord.gg/x5Vay8bmgA</p>
+            <div class="linie"></div>
+		
+
+
+                <div class="einloggen" onclick="loginshow()">
+                    <div class="einlogg">Einloggen</div>
+                </div>
+
+                <div onclick="registershow()" id="regbuttontop" class="registrieren">
+                    <div class="regist">Registrieren</div>
+                </div>
+
+                <div class="loginbox">
+                </div>
+
+                <div class="username1">Username</div>
+                <div class="username">
+                    <input type="text" id="username" style="color: white; margin-top: -8;"></input>
+                </div>
+
+                <div class="passwort1">Passwort</div>
+                
+                <div class="passwort">
+                    <input type="password" id="password" style="color: white; margin-top: -8;"></input>
+                </div>
+                
+
+                <p class="hastschon" id="hastschon" style="display: none;">Unser System hat erkannt das du einen Account hast, bitte logge dich ein!</p>
+                <p class="keinaccount" id="keinaccount" style="display: none;">Du hast noch keinen Account bitte erstelle dir einen!</p>
+                <p class="wronglogin" id="wronglogin" style="display: none;">Falscher Benutzername oder Passwort</p>
+                <p class="vergeben" id="vergeben" style="display: none;">Benutzername bereits vergeben</p>
+                <p class="gebannt" id="gebannt" style="display: none;">Account gebannt</p>
+                <p class="accountinvalid" id="accountinvalid" style="display: none;">(Invalider Check. Melde dich im Teamspeak)</p>
+                <p class="errorcode" id="errorcode" style="display: none;">Deine Angaben sind falsch!</p>
+
+                <button class="login" ng-click="submitEnter($event)" ng-mouseenter="startHover($event)" ng-mouseleave="stopHover($event)" id="loginbutton"><p class="login1">Login</p></button>
+                <button class="register2" ng-click="registerEnter($event)" ng-mouseenter="startHover($event)" ng-mouseleave="stopHover($event)" id="registerbutton" style="display: none;"><p class="register1">Registrieren</p></button>
+
+        </div>
+        <script type="text/javascript">
+            function loginshow() {
+                     var y = document.getElementById("loginbutton");
+                     var x = document.getElementById("registerbutton");
+                    document.getElementById("username").value = "";
+                    document.getElementById("password").value = "";
+        
+                    x.style.display = "none";
+                    y.style.display = "block";
+                    } 
+
+                    function registershow() {
+                      var x = document.getElementById("registerbutton");
+                      var y = document.getElementById("loginbutton");
+                    x.style.display = "block";
+                    y.style.display = "none";
+                    document.getElementById("username").value = "";
+                     document.getElementById("password").value = "";
+                    } 
+            </script>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

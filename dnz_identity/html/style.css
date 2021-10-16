@@ -1,0 +1,622 @@
+#cursor {
+	position: absolute;
+	z-index: 999999;
+	display: none;
+}
+
+/* Required */
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+	display: none;
+	background-image: url(background.jpg);
+	background-size: cover;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.dialog {
+}
+
+.formback {
+	position: absolute;
+	width: 881.14px;
+	height: 1562.67px;
+	right: -200px;
+	top: -200.42px;
+
+	background: rgba(64, 67, 79, 0.71);
+	transform: rotate(-11.63deg);
+}
+
+.form {
+	position: absolute;
+	width: 539px;
+	height: 849px;
+	right: 240px;
+	top: 250px;
+	transform: rotate(11.63deg);
+	color: white;
+	text-align: left;
+
+}
+
+div.settings {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-gap:5px;
+	align-content: center;
+}
+div.settings label       { text-align:right; }
+div.settings label:after { content: ":"; }
+
+input[type=text],[type=password] {
+	color:white;
+	align-content: center;
+	width: 200%;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid #e6595c;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0);
+	outline: none;
+}
+
+.redfont {
+	color: #e6595c;
+}
+
+button {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #e6595c;
+	border: 0;
+	color: #fff;
+	border-radius: 10px;
+	width: 70%;
+}
+
+h1 {
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	color: #fff;
+	width: 93%;
+	text-align: center;
+}
+
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    width: 461px;
+    height: 687px;
+    background: #283033;
+    border-radius: 25px;
+}
+
+.topshit {
+position: absolute;
+width: 511px;
+height: 26px;
+left: 0px;
+top: -2px;
+background: #C4C4C4;
+border-radius: 17px 17px 0px 0px;
+}
+
+p.slogan {
+position: absolute;
+width: 394px;
+height: 34px;
+left: 19px;
+top: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #208CC8;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.neuelinie {
+position: absolute;
+width: 109.35px;
+height: 0px;
+left: 18.99px;
+top: 58.74px;
+border: 1px solid #E1E1E1;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+p.topslogan {
+position: absolute;
+width: 151px;
+height: 20px;
+left: 19px;
+top: 50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.88);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.logo {
+position: absolute;
+width: 234px;
+height: 234px;
+left: 134px;
+top: 95px;
+opacity: 0.39;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+p.bevor {
+    /* Bevor du loslegen kannst benötigen wir noch einige Daten von dir. */
+
+
+position: absolute;
+width: 446px;
+height: 20px;
+left: 39px;
+top: 340px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.88);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.regbox {
+    /* Rectangle 137 */
+
+
+position: absolute;
+width: 414px;
+height: 261px;
+left: 46px;
+top: 389px;
+
+border: 1px solid #C5C5C5;
+box-sizing: border-box;
+border-radius: 15px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+p.vorname {
+/* Vorname */
+
+
+position: absolute;
+width: 151px;
+height: 20px;
+left: 80px;
+top: 395;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+p.nachname {
+/* Nachname */
+
+
+position: absolute;
+width: 151px;
+height: 20px;
+left: 80px;
+top: 450px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+p.geburtsdatum {
+/* Geburtsdatum */
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+position: absolute;
+width: 151px;
+height: 20px;
+left: 80px;
+top: 505px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+p.geschlecht {
+/* Dein Geschlecht */
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+position: absolute;
+width: 117px;
+height: 20px;
+left: 295px;
+top: 510px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+p.gros {
+/* Wie groß bist du? (in cm) */
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+position: absolute;
+width: 211px;
+height: 20px;
+left: 141px;
+top: 569px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.88);
+}
+
+
+.boxvorname {
+    /* Rectangle 127 */
+
+
+position: absolute;
+width: 353px;
+height: 28px;
+left: 80px;
+top: 431px;
+
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+border-radius: 7px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.boxnachname {
+/* Rectangle 128 */
+
+
+position: absolute;
+width: 353px;
+height: 28px;
+left: 80px;
+top: 486px;
+
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+border-radius: 7px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.boxgeb {
+/* Rectangle 129 */
+
+
+position: absolute;
+width: 170px;
+height: 28px;
+left: 80px;
+top: 541px;
+
+border: 1px solid #A9A9A9;
+box-sizing: border-box;
+border-radius: 7px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.mannlich {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 283px;
+    top: 546px;
+    
+    background: #C4C4C4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.weiblich {
+/* Rectangle 136 */
+
+
+position: absolute;
+width: 60px;
+height: 18px;
+left: 353px;
+top: 546px;
+
+background: #C4C4C4;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.grossbar {
+    /* Rectangle 135 */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+position: absolute;
+width: 224px;
+height: 18px;
+left: 145px;
+top: 605px;
+
+background: #C4C4C4;
+}
+
+.erstellen {
+    /* Frame 34 */
+
+position: absolute;
+width: 414px;
+height: 34px;
+left: 46px;
+top: 669px;
+
+background: #969696;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+p.einreisen {
+    /* Einreisen */
+
+position: absolute;
+width: 414px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+input.vorname {
+    
+    position: absolute;
+    width: 353px;
+    height: 28px;
+    left: 80px;
+    top: 430px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-radius: 7px;
+    }
+
+
+    input.nachname {
+    
+/* Rectangle 128 */
+
+
+position: absolute;
+width: 353px;
+height: 28px;
+left: 80px;
+top: 485px;
+
+        background: transparent;
+        border: none;
+        outline:none;
+        }
+
+
+        input.geb {
+    
+            position: absolute;
+            width: 170px;
+            height: 28px;
+            left: 80px;
+            top: 541px;
+            
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            color: grey;
+            background: transparent;
+            border: none;
+            outline:none;
+            border-radius: 7px;
+            }
+
+
+            input.grossbox {
+                position: absolute;
+                width: 224px;
+                height: 18px;
+                left: 145px;
+                top: 605px;
+                
+                background: #C4C4C4;
+                
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                color: grey;
+                background: transparent;
+                border: none;
+                outline:none;
+                border-radius: 7px;
+                }
+
+
+
+
+                input.m {
+/* Rectangle 133 */
+
+
+position: absolute;
+width: 60px;
+height: 18px;
+left: 289px;
+top: 546px;
+
+background: #C4C4C4;
+                    }
+
+
+                    input.w {
+                        position: absolute;
+                        width: 60px;
+                        height: 18px;
+                        left: 335px;
+                        top: 546px;
+                        
+                        background: #C4C4C4;
+                        }
+
+
+
+
+.grossdisplay {
+    /* Wie groß bist du? (in cm) */
+
+
+position: absolute;
+width: 171px;
+height: 20px;
+left: -250px;
+top: 585px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.88);
+
+}
+
+
+
+p.genderm {
+    /* M */
+
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 289px;
+top: 534px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(71, 152, 214, 0.88);
+
+
+}
+
+p.genderw {
+    /* W */
+
+
+position: absolute;
+width: 19px;
+height: 20px;
+left: 387px;
+top: 534px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(189, 115, 183, 0.88);
+
+}
+
+
+button.erstellen {
+    /* Frame 34 */
+
+
+position: absolute;
+width: 414px;
+height: 34px;
+left: 46px;
+top: 669px;
+
+background:#1976da;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+outline:none;
+}
+

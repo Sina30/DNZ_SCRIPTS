@@ -1,0 +1,135 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="question-container">
+			<!-- header -->
+			<div class="header">
+				<h1>Die Theorieprüfung</h1>
+			</div>
+			
+			<!-- home -->
+			<div class="body home">
+				<div class="content">
+					<center>
+
+						<br>
+						<p class="bold-text">Willkommen in der Fahrschule
+						
+					</center>
+					<div class="weissertext">
+				<br> <b>Theorie-Test:</b> <br>- Der Theorie-Test kostet 200 US-Dollar. Er wird nicht erstattet, wenn Sie den Test nicht bestehen.
+				<br> - Hab keine Angst, die Fahrschule akzeptiert Kredite, aber pass auf, dass du dich nicht verschuldest.
+				<br> - Wenn Sie Ihren Test zum ersten Mal nicht bestehen, können Sie ihn nicht sofort wiederholen, sondern müssen ihn zu einem späteren Zeitpunkt ablegen
+				Datum.<br>
+				<br> <b>Fahrprüfung:</b>
+				<br> - Die Fahrprüfung kostet 500 US-Dollar, genau wie die theoretische Prüfung. Diese Zahlung wird nicht erstattet, wenn Sie nicht bestehen.
+				<br> - Achten Sie darauf, dass Sie während der Fahrt wachsam sind und vermeiden Sie Unfälle!</div> </ p>
+				</div>
+				<img src="car.png" style="carshit">
+				<div class="buttonspot">
+				<div class="checkmate">
+					<a href="#" class="button btnQuestion"><p class="trottl">Beginnen</p></a>
+				</div>
+				</div>
+				<div class="barre-progression">
+					<h2>Fortschritt</h2>
+					<progress class="progression" value="0" max="10">
+				</div>
+			</div>
+			<!-- Question-->
+			<div class="body questionnaire-container">
+				<div class="content">
+				<br><br><br>
+					<h2 id="questionNumero">0</h2>
+					<p id="question">Testfrage?</p>
+					<form class="form" id="question-form">
+						<div>
+							<input type="radio" name="question" id="answerA" value="A">
+							<label class="answerA">1</label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerB" value="B">
+							<label class="answerB">2</label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerC" value="C">
+							<label class="answerC">3</label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerD" value="D">
+							<label class="answerD">4</label>
+						</div>
+							<br>
+								<br>							<br>
+								<br>
+						<button type="submit" id="submit" class="submit">Nächste Frage</button>
+					</form>
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="barre-progression">
+					<h2>Fortschritt</h2>
+					<progress class="progression" value="0" max="10">
+				</div>
+			</div>
+			<!-- Results -->
+			<div class="body resultGood">
+				<div class="content">
+					<center>
+					<br>
+						<p class="bold-text"  style="margin-top:25px;">Du hast die Theorieprüfung bestanden!</p>
+						<br>
+						<br>Sie haben sich während der Prüfung echt gut geschlagen.<br> 
+						Wir überreichen Ihnen hiermit Ihre abgeschlossene Theorieprüfung.
+						<br>
+						Sie können nun die Fahrstunden antreten und auf den Straßen von Los Santos lernen <br>
+						wie man richtig Auto fährt. Wir haben dir einen Fahrlehrer zugewiesen der dir weitere <br>
+						Schritte per Funk mitteilt. <br> Höre genau zu uns lass dir keine Fehler anrechnen!  
+						<br><br>Sie können dieses Fenster schließen und Ihre Fahrstunden antreten.
+					</center>
+				</div>
+				
+				<div class="buttonspot">
+					<a href="#" style="margin-left:-445;" class="button btnClose">>> Fahrstunden antreten <<</a>
+				</div>
+				
+				<div class="barre-progression">
+					<h2>Fortschritt</h2>
+					<progress class="progression" style="background-color:white;" value="10" max="10">
+				</div>
+			</div>
+			<div class="body resultBad">
+				<div class="content">
+					<center>
+					<br>
+					<br>
+					<br>
+						<p class="bold-text">Du hast die Theorieprüfung nicht bestanden.</p>
+						<br>
+						<br>Sie haben leider nicht genug Fragen richtig beantwortet. <br> Eventuell versuchen Sie es zu einem späteren Zeitpunkt noch einmal.
+						<br>
+						<br>
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnKick">>> Verlassen</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Fortschritt</h2>
+					<progress class="progression" value="10" max="10">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="questions.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>

@@ -1,0 +1,319 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 458px;
+    height: 448px;
+    
+    background: #303952;
+    border-radius: 10px;
+}
+
+button {    
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.topshit {
+    position: absolute;
+    width: 52px;
+    height: 458px;
+    left: 203px;
+    top: -207px;
+    
+    background: #596275;
+    border-radius: 0px 10px 10px 0px;
+    transform: rotate(-90deg);
+}
+
+p.toptext {
+    /* FAHRRAD SHOP */
+
+
+position: absolute;
+width: 286px;
+height: 30px;
+left: 125px;
+top: 6px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+color: #ffffff;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    
+position: absolute;
+width: 360px;
+height: 313px;
+left: 49px;
+top: 86px;
+
+border: 1px solid #596275;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.closebutton {
+    position: absolute;
+width: 15px;
+height: 15px;
+left: 424px;
+top: 18px;
+
+background: #C17272;
+border-radius: 10px;
+}
+
+
+img.fahrrad {
+    position: absolute;
+width: 274px;
+height: 274px;
+left: 188px;
+top: 174px;
+
+opacity: 0.1;
+}
+
+
+img.bike1 {
+    position: absolute;
+    width: 152px;
+    height: 85px;
+    left: 17px;
+    top: 21px;
+    border: 2px solid grey;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 39px;
+}
+
+
+img.bike2{
+    position: absolute;
+    width: 151px;
+    height: 85px;
+    left: 192px;
+    top: 21px;
+    border: 2px solid grey;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 39px;
+}
+
+img.bike3{
+    position: absolute;
+    width: 152px;
+    height: 85px;
+    left: 17px;
+    top: 152px;
+    border-radius: 39px;
+    border: 2px solid grey;
+}
+
+
+img.bike4{
+    
+    position: absolute;
+    width: 151px;
+    height: 85px;
+    left: 192px;
+    top: 152px;
+    border: 2px solid grey;
+    border-radius: 39px;
+}
+
+
+p.preis1 {
+    position: absolute;
+width: 66px;
+height: 32px;
+left: 27px;
+top: 117px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.preis2 {
+    position: absolute;
+width: 66px;
+height: 32px;
+left: 200px;
+top: 117px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.preis3 {  
+    position: absolute;
+width: 66px;
+height: 32px;
+left: 27px;
+top: 268px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+p.preis4 {
+    position: absolute;
+width: 66px;
+height: 32px;
+left: 200px;
+top: 268px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.dielinie {
+    position: absolute;
+width: 311px;
+height: 0px;
+left: 25px;
+top: 129px;
+
+border: 1px solid #8B8B8B;
+}
+
+button.btn1 {
+    position: absolute;
+width: 51px;
+height: 27px;
+left: 110px;
+top: 120px;
+outline: none;
+border: none;
+background: #69A639;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+}
+
+button.btn2 {
+    position: absolute;
+width: 51px;
+height: 27px;
+left: 283px;
+top: 120px;
+outline: none;
+border: none;
+background: #69A639;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+}
+
+button.btn3 {
+    
+position: absolute;
+width: 51px;
+height: 27px;
+left: 110px;
+top: 271px;
+outline: none;
+border: none;
+background: #69A639;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+}
+
+button.btn4 {
+    position: absolute;
+width: 51px;
+height: 27px;
+left: 283px;
+top: 271px;
+outline: none;
+border: none;
+background: #69A639;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+}
+
+
+.modal-header{
+    background-color: #596275;
+}
+
+.modal-title{
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.modal-body{    
+    background: #303952;    
+
+}
+
+.modal-footer{
+    background: #303952;    
+}
+
+label{
+    color: white;
+}
+
+.form-group{
+    border: #303952;
+}

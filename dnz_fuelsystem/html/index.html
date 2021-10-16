@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+            <div class="topshit"></div>
+            <img class="tankstellenicon" src="img/tanke.png">
+            <p class="tankstelle">Tankstelle</p>
+            <div class="literimauto">Dein Fahrzeug</div>
+            <div class="literbox"></div>
+            <p class="literanzahl" id="literanzahl">Lade..</p>
+            <div class="tankbox"></div>
+            <div class="spritpreis">Letzte Rechnung:</div>
+            <div class="benotigtersprit">Benötigte Liter:</div>
+            <p class="spritpreis1" id="spritpreis">$0</p>
+            <p class="needsprit">Lade..</p>
+            <button id="submit" onclick="tanken()" class="submit" type="submit"><p style="font-family: Poppins; color: white; font-weight: 500;margin-top: -3;">Tankvorgang starten</p></button>
+            <button id="close" onclick="tanken()" style="display: none;"class="close"><p style="font-family: Poppins; color: white; font-weight: 500;margin-top: -3;">Tankvorgang stoppen</p></button>
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    </body>
+    <script>
+        function tanken() {
+            var x = document.getElementById("submit");
+            var y = document.getElementById("close");
+            var sprit = document.getElementById("literanzahl");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+
+document.addEventListener('keydown', function(e){
+   if(e.key === 'ESC')
+   console.log('Hey ESC')
+})
+document.addEventListener('keydown', function(e){
+	  var x = document.getElementById("submit");
+	var y = document.getElementById("close");
+   if(e.key === 'Escape')
+    x.style.display = "block";
+	y.style.display = "none";
+})
+    </script>
+</html>

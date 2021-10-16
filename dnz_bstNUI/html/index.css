@@ -1,0 +1,238 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 237px;
+    height: 377px;
+    
+    /* Gray 6 */
+    
+    background: #F2F2F2;
+    border-radius: 25px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+
+.topshit {
+    /* Rectangle 4 */
+
+
+
+    position: absolute;
+    width: 288.92px;
+    height: 120.55px;
+    left: -1.27px;
+    top: -1px;
+    
+    background: #24245C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0deg);
+
+border-radius: 25px 25px 0 0;
+
+}
+
+.toptext{
+    position: absolute;
+width: 263px;
+height: 36px;
+left: 82px;
+top: 26px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}
+
+.dielinie{
+    /* Line 3 */
+
+
+position: absolute;
+width: 258.01px;
+height: 0px;
+left: 18px;
+top: 72.01px;
+
+border: 1px solid #565656;
+transform: rotate(-0.45deg);
+}
+
+.toptext1{
+    position: absolute;
+width: 155px;
+height: 20px;
+left: 69px;
+top: 80px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}
+
+.bildbox{
+    /* Rectangle 13 */
+
+
+position: absolute;
+width: 184px;
+height: 151px;
+left: 52.01px;
+top: 137px;
+
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+border-radius: 15px;
+transform: rotate(0deg);
+}
+
+img.roids{
+    /* proteins 1 */
+
+
+position: absolute;
+width: 113px;
+height: 113px;
+left: 89px;
+top: 156px;
+
+}
+
+.bonusbox{
+    /* Rectangle 20 */
+
+
+position: absolute;
+width: 183.74px;
+height: 67.51px;
+left: 52.01px;
+top: 294px;
+
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+border-radius: 15px;
+transform: rotate(0deg);
+}
+
+p.hp{
+/* + 50 HP */
+
+
+position: absolute;
+width: 49px;
+height: 20px;
+left: 69px;
+top: 310px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+
+}
+
+p.schaden{
+    /* + 5x Angriffsschaden */
+
+
+position: absolute;
+width: 137px;
+height: 20px;
+left: 69px;
+top: 326px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}
+
+button.einsammeln{
+    /* Rectangle 19 */
+
+
+position: absolute;
+width: 165px;
+height: 27px;
+left: 64px;
+top: 372px;
+
+background: #24245C;
+border: 1px solid #B5B5B5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+transform: rotate(0deg);
+}
+
+p.troll{
+    position: absolute;
+width: 107.52px;
+height: 23px;
+left: 103px;
+top: 375px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0deg);
+}

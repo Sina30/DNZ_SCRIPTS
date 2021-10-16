@@ -1,0 +1,360 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-radius: 7px;
+	
+
+width: 480px;
+height: 245px;
+
+background: rgba(112, 111, 111, .5);
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 11px;
+}
+
+
+button {
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
+
+img.logo {
+	position: absolute;
+	width: 69px;
+	height: 69px;
+	
+}
+
+.servername {
+	position: absolute;
+	width: 208px;
+	height: 22px;
+	left: 110px;
+	top: 29px;
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	
+	color: #FFFFFF;
+	
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+span.beruf {
+/* Dein Beruf: */
+
+position: absolute;
+width: 256px;
+height: 19px;
+left: 110px;
+top: 79px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.deineid {
+/* Deine ID: */
+
+
+position: absolute;
+width: 53px;
+height: 18px;
+left: 448px;
+top: 21px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.dieid {
+/* 68 */
+
+
+position: absolute;
+width: 24px;
+height: 27px;
+left: 478px;
+top: 33px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFE600;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.ping {
+/* Ping: 55 */
+
+
+position: absolute;
+width: 63px;
+height: 18px;
+left: 454px;
+top: 79px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.online {
+/* Online: 64/64 */
+
+
+position: absolute;
+width: 83px;
+height: 18px;
+left: 110px;
+top: 52px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dielinie {
+/* Line 16 */
+
+
+position: absolute;
+width: 471px;
+height: 0px;
+left: 31px;
+top: 110px;
+
+border: 1px solid #CDCDCD;
+}
+
+p.imdienst {
+/* Zurzeit im Dienst: */
+
+
+position: absolute;
+width: 235px;
+height: 21px;
+left: 31px;
+top: 126px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img.cops {
+	position: absolute;
+	width: 59px;
+	height: 59px;
+	left: 87px;
+	top: 167px;
+	
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.medics {
+/* ambulance 1 */
+
+
+position: absolute;
+width: 59px;
+height: 59px;
+left: 231px;
+top: 167px;
+
+background: url(ambulance.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img.mechaniker {
+/* mechanics 1 */
+
+
+position: absolute;
+width: 59px;
+height: 59px;
+left: 375px;
+top: 167px;
+
+background: url(mechanics.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.copsbox {
+/* Rectangle 107 */
+
+
+position: absolute;
+width: 59px;
+height: 17px;
+left: 87px;
+top: 236px;
+
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.medicsbox {
+/* Rectangle 108 */
+
+
+position: absolute;
+width: 59px;
+height: 17px;
+left: 231px;
+top: 236px;
+
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mechanikerbox {
+/* Rectangle 109 */
+
+
+position: absolute;
+width: 59px;
+height: 17px;
+left: 375px;
+top: 236px;
+
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+span.cops {
+/* 25 */
+
+
+position: absolute;
+width: 15px;
+height: 18px;
+left: 113px;
+top: 236px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.medics {
+/* 25 */
+
+
+position: absolute;
+width: 15px;
+height: 18px;
+left: 258px;
+top: 236px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.mechaniker {
+/* 25 */
+
+
+position: absolute;
+width: 15px;
+height: 18px;
+left: 402px;
+top: 236px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

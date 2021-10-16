@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<img id="cursor" src="cursor.png">
+		<div class="dialog">
+			<form id="register">
+				<h1>Register</h1>
+				<input id="firstname" type="text" placeholder="First name"><br>
+				<input id="lastname" type="text" placeholder="Last name"><br>
+				<input id="dateofbirth" type="text" placeholder="Date of Birth (YYYY-MM-DD)"><br>
+				<input id="height" type="text" placeholder="Height (140-200 cm)"><br><center>
+					CP Passwort:
+					<input id="cppasswort" type="text"><br>
+					Geschlecht:
+					<input type="radio" name="sex" value="m" checked>Männlich
+					<input type="radio" name="sex" value="f">Weiblich<br>
+					Einreise:
+					<input type="radio" name="illegal" value="illegal" checked>Illegal
+					<input type="radio" name="legal">Legal<br></center>
+				<button id="submit" type="submit">Create</button>
+			</form>
+		</div>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
